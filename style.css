@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    /* display: flex; */
+    /* align-items: center; */
+    background-color: #162d52;
+    width: 91.794vw;
+    height: 40vw;
+    font-family: calibri;
+    padding: 2vw 3.5vw 1vw 3.5vw;
+
+}
+
+.nav-container {
+    display: flex;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-div img {
+    width: 3.5vw;
+}
+
+.logo-div p {
+    font-size: 2vw;
+    padding: 0vw 0.5vw;
+    color: white;
+    text-transform: capitalize;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 3.5vw;
+    /* background-color: red; */
+}
+
+.left-nav {
+    /* background-color: green; */
+    width: 53vw;
+    height: fit-content;
+}
+
+.left-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0vw 3vw;
+
+}
+
+.left-nav ul li {
+    padding: 0vw 1vw;
+}
+
+.left-nav ul a:hover {
+    color: black;
+    /* font-style: italic; */
+    text-decoration: overline;
+    transition: all 0.4s ease-in;
+    animation: forwards;
+}
+
+.left-nav ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.5vw;
+
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: yellow; */
+    width: 28vw;
+    height: fit-content;
+}
+
+#right-nav-btn {
+    font-size: 1.2vw;
+    color: red;
+    padding: 0.5vw 1vw;
+    text-transform: capitalize;
+    font-family: barlow;
+    border: 0ch;
+    border-radius: 4px;
+}
+
+.showcase {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 2vw 2vw 2vw 17vw;
+    justify-content: space-between;
+}
+
+.left-showcase {
+    text-align: center;
+    width: 23vw;
+}
+
+#showcase-p1 {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+#showcase-p2 {
+    font-size: 1.5vw;
+}
+
+#showcase-btn:hover{
+    background-color: rgb(211, 109, 0);
+}
+
+#showcase-btn {
+    font-size: 1.1vw;
+    padding: 1vw 2.5vw;
+    margin-top: 1vw;
+    border-radius: 4px;
+    text-transform: capitalize;
+    background-color: rgb(233, 109, 0);
+    border: 0ch;
+    color: white;
+    cursor: pointer;
+}
+
+.right-showcase img {
+    width: 33vw;
+    border-radius: 6px;
+}
+
+.mid-container{
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0vw;
+    font-family: calibri;
+}
+.mid-container img{
+    width: 9vw;
+}
+
+.mid{
+    width: 16vw;
+    padding: 1vw;
+}
+.name{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 1vw;
+}
+
+.botm-container{
+    padding-bottom: 2vw;
+    font-family: calibri;
+}
+
+.botm-container p{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #162d52;
+    font-weight: bold;
+}
