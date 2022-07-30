@@ -4,8 +4,6 @@
 }
 
 .top-container {
-    display: flex;
-    align-items: center;
     background-color: #162d52;
     width: 91.794vw;
     height: 40vw;
@@ -16,7 +14,7 @@
 
 .nav-container {
     display: flex;
-    align-items: center;
+    /* align-items: flex-end; */
 }
 
 .logo-div {
@@ -26,7 +24,7 @@
 }
 
 .logo-div img {
-    width: 3.5vw;
+    width: 3vw;
 }
 
 .logo-div p {
@@ -38,13 +36,12 @@
 
 .nav-bar {
     display: flex;
-    align-items: center;
-    height: 3.5vw;
-    /* background-color: red; */
+    /* align-items: center; */
+    padding: 0.7vw;
+    height: fit-content;
 }
 
 .left-nav {
-    /* background-color: green; */
     width: 53vw;
     height: fit-content;
 }
@@ -82,7 +79,7 @@
     justify-content: flex-end;
     /* background-color: yellow; */
     width: 28vw;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 #right-nav-btn {
@@ -90,7 +87,7 @@
     color: red;
     padding: 0.5vw 1vw;
     text-transform: capitalize;
-    font-family: barlow;
+    font-family: calibri;
     border: 0ch;
     border-radius: 4px;
 }
